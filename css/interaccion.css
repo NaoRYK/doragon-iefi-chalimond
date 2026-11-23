@@ -1,0 +1,59 @@
+[hidden] {
+  display: none;
+}
+
+.mensaje {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-verde);
+}
+
+.vacio {
+  padding: var(--espacio-3);
+  border: 1px dashed var(--color-borde);
+  border-radius: var(--radio-grande);
+  text-align: center;
+  color: var(--color-texto);
+}
+
+.contador-caracteres {
+  font-size: 0.75rem;
+  text-align: right;
+  color: var(--color-texto);
+}
+
+.pagina-pago .pedido .boton {
+  margin-top: var(--espacio-2);
+}
+
+.pagina-carrito .descuento .mensaje {
+  margin-top: var(--espacio-1);
+}
+
+.pie .suscripcion .mensaje {
+  font-size: 0.8125rem;
+}
+
+.avisos {
+  position: fixed;
+  right: var(--espacio-2);
+  bottom: var(--espacio-2);
+  z-index: 100;
+  display: grid;
+  gap: var(--espacio-1);
+  max-width: min(22rem, calc(100vw - 2rem));
+}
+
+.aviso-flotante {
+  padding: 0.75rem 1rem;
+  border-radius: var(--radio-medio);
+  background: var(--color-tinta);
+  color: var(--color-blanco);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  box-shadow: var(--sombra-suave);
+}
+
+.aviso-flotante.error {
+  background: var(--color-rojo);
+}
